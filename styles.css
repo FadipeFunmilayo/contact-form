@@ -1,0 +1,117 @@
+body {
+    background-color: white; 
+    font-family: verdana; 
+}
+/* Create two columns/boxes that floats next to each other */
+
+.fig{
+     margin-left: 150px;
+     align-content: center;
+     background-color: beige;
+     width: 20%;
+     margin-top: 50px;
+     box-sizing: 30%;
+     float: left;
+     margin-bottom: 40px;
+     font-size: 15px;
+     color: black
+}
+.info {
+    padding: 12px 8px 50px;
+    align-content: center;
+    background-color: beige;
+    width: 30%;
+    margin-top: 50px;
+    box-sizing: 30%;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    
+} 
+.doc{
+    height: 750px;
+    background-color:royalblue;
+    width: 70%;
+    margin: auto;
+    align-content: center;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;   
+    
+   
+}
+img{
+    max-width: 100%;
+    display: block;
+    align-content: left;
+    margin-top: 10px;
+   
+  
+}   
+.col{
+   text-align: center;
+}  
+.data {
+    font-size: 12px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    text-align:left;
+    padding-left: 18px;
+}
+input[type=text], textarea {
+    width:70%;
+    padding: 10px 40px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    background-color:white;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+.button {               
+    width: 90%;
+    background-color:white; 
+    padding: 10px 40px;
+    border: none;
+    color:  black;
+    font-size: 20px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;   
+    margin: auto;   
+    display: block; 
+    
+             
+}
+.button:hover {
+    transition: 0.08s;
+    background-color: white 
+}
+    .par{
+        height:120px;
+        width:70%;
+        padding: 10px 40px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        background-color:white;
+        margin: auto;
+        display: block;
+        margin-bottom: 15px;
+  } 
+  .name h4 {
+    text-align: center;
+    margin: 11px;
+}
+.image {
+    max-height: 236px;
+    position: relative;
+    overflow: hidden;
+} 
+.other-details {
+    padding: 10px;
+    font-size: 13px;
+}                      
